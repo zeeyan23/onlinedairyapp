@@ -34,7 +34,6 @@ export const ShowDairy = () => {
                     </tr>
                 ))}
             </tbody>
-            <button type="button" class="btn btn-outline-danger">Delete</button>
         </Table>
         </div>
     </>

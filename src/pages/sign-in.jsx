@@ -43,7 +43,7 @@ export const SignIn = () => {
       }
       else{
         setUserNotFound(false);
-        navigate('/dashboard');
+        navigate('/onlinedairyapp/dist/dashboard');
       }
     });
     // setEnteredEmail('');

@@ -8,7 +8,7 @@ export const NavigationBar = () => {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
         <Container>
           <Navbar.Brand>My Dairy</Navbar.Brand>
-          <Link to="/showdairy" className="nav-link text-light btn btn-outline-info">List of Diary</Link>
+          <Link to="/onlinedairyapp/dist/showdairy" className="nav-link text-light btn btn-outline-info">List of Diary</Link>
         </Container>
         </Navbar>
   )

@@ -44,7 +44,7 @@ export const SignUp = (props) => {
       }else if(enteredName==null || enteredEmail==null || enteredPassword==null){
         setMissingInput(true);
       }else{
-        navigate('/signin');
+        navigate('/onlinedairyapp/dist/signin');
       }
     });
   }
