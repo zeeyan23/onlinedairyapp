@@ -44,7 +44,6 @@ export const SignUp = (props) => {
       }else if(enteredName==null || enteredEmail==null || enteredPassword==null){
         setMissingInput(true);
       }else{
-        props.onSaveData(accountCreated);
         navigate('/signin');
       }
     });
