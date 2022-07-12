@@ -67,7 +67,7 @@ export const SignUp = (props) => {
       <div className={classes.btn}>
       <Button type="submit" name="save" value="Submit" className='btn btn-primary btn-lg mt-4'>Submit</Button>
       </div>
-      <Link to="/signin" className="nav-link">Already have an account? Sign in here</Link>
+      <Link to="//onlinedairyapp/dist/signin" className="nav-link">Already have an account? Sign in here</Link>
     </Form>
     {missingInput && 
     <Alert variant="danger" className={classes.Alert}>
