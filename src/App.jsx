@@ -13,7 +13,7 @@ function App() {
       <Route path="/onlinedairyapp/dist/signup"element={<SignUp />}/>
       <Route path="/onlinedairyapp/dist/dashboard"element={<Dashboard />}/>
       <Route path="/onlinedairyapp/dist/showdairy"element={<ShowDairy />}/>
-      <Route path="*" element={<SignUp />} />
+      <Route path="/onlinedairyapp/dist/*" element={<SignUp />} />
     </Routes>
   )
 }
