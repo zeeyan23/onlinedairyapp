@@ -1,0 +1,21 @@
+.textarea{
+    width: 50%;
+    margin-top: 2em;
+}
+.formgroup{
+    width: auto;
+}
+.addbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Alert{
+    width:fit-content ;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 2em;
+}
+.Alert p{
+    font-weight: bold;
+}
